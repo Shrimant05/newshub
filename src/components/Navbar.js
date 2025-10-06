@@ -1,13 +1,17 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
+ 
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
+          <img src="newhub_logo.png" style={{width:"50px",borderRadius:"20px"}}/>
           <Link className="navbar-brand" to="#">
+            
             NewsHub
           </Link>
           <button
